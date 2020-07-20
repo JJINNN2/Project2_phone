@@ -2,20 +2,22 @@ package com.example.phonephoto.phone;
 
 import com.google.gson.annotations.SerializedName;
 
+import java.util.ArrayList;
+
 // 연락처 이름, 번호 받을 데이터
 public class PhoneDownloadResponse {
 
     @SerializedName("name")
-    private String name;
+    ArrayList<String> name;
 
     @SerializedName("number")
-    private String number;
+    ArrayList<String> number;
 
-    public String getName() {
+    public ArrayList<String> getName() {
         return name;
     }
 
-    public String getNumber() {
+    public ArrayList<String> getNumber() {
         return number;
     }
 

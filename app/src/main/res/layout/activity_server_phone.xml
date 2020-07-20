@@ -32,7 +32,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="server gallery"
+                android:text="server phone"
                 android:textColor="@android:color/white"
                 android:textSize="15sp" />
 
@@ -70,12 +70,13 @@
                 android:padding="7dp"
                 android:onClick="backClick2"/>
             <TextView
-                android:id="@+id/imageName"
+                android:id="@+id/phoneName"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="server gallery"
+                android:text="server phone"
                 android:textColor="@android:color/white"
                 android:textSize="15sp" />
+
 
         </androidx.appcompat.widget.Toolbar>
 

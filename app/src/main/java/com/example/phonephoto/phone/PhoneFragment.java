@@ -86,7 +86,8 @@ public class PhoneFragment extends Fragment {
         serverButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getContext(), ServerGalleryActivity.class);
+
+                Intent intent = new Intent(getContext(), ServerPhoneActivity.class);
                 getContext().startActivity(intent);
             }
         });
